@@ -1,5 +1,8 @@
 # https://hackernoon.com/computer-graphics-scan-line-polygon-fill-algorithm-3cb47283df6
 
+# Generator that yields (x,y) points within a polygon based on a set of sorted input vertices
+
+
 class ScanLinePolygonFill:
     
     def __init__(self, vertices):
